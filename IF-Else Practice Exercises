@@ -1,0 +1,363 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOqSI0LbCNGZOmNnve1Hmax",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/amitrg22/Python-Practice/blob/main/IF-Else%20Practice%20Exercises\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ds5sk7CN_5AQ",
+        "outputId": "63ea7902-9722-4e07-d3b1-fbb17800a04a"
+      },
+      "source": [
+        "i = 10\n",
+        "if (i > 15):\n",
+        "  print(\" 10 is less than 15\")\n",
+        "print(\"I'm not in IF\")"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "I'm not in IF\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_TMp5R_9BCC6",
+        "outputId": "fd67f249-0c20-40e9-e2d8-282d916b337d"
+      },
+      "source": [
+        "#if else statement\n",
+        "i =20;\n",
+        "if (i < 15):\n",
+        "  print(\"i is smaller than 15\")\n",
+        "  print(\"I m in if block\")\n",
+        "else:\n",
+        "  print(\"i is greater than 15\")\n",
+        "  print(\"I m in else block\")\n",
+        "print(\"I m not in if else block\")\n"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "i is greater than 15\n",
+            "I m in else block\n",
+            "I m not in if else block\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XG4MVrWbBwkR",
+        "outputId": "f2e13be9-7341-43ec-e77e-2a431e530954"
+      },
+      "source": [
+        "#Nested if else\n",
+        "\n",
+        "i = 10\n",
+        "if(i ==10):\n",
+        "  if(i <15):\n",
+        "    print( \" i is smaller than 15\")\n",
+        "  if(i >12):\n",
+        "    print(\"i is smaller tham 12 too\")\n",
+        "  else:\n",
+        "    print(\"i is greater than 15\")"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            " i is smaller than 15\n",
+            "i is greater than 15\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hzxxp2oZDW0H",
+        "outputId": "25850adf-aa39-4d18-d8ec-8d78f10752ba"
+      },
+      "source": [
+        "#elif\n",
+        "i = 20\n",
+        "if (i == 10):\n",
+        "  print(\" i is 10\")\n",
+        "elif (i == 15):\n",
+        "  print(\"i is 15\")\n",
+        "elif  (i == 20):\n",
+        "  print(\"i is 20\")\n",
+        "else:\n",
+        "  print(\" i is not present\")\n"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "i is 20\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4_Ze1zddEU2T",
+        "outputId": "c2e6bb94-e4e1-46a8-c329-07a165a34e36"
+      },
+      "source": [
+        "#Shorthand if-else\n",
+        "i =10\n",
+        "print(True) if i < 15 else print(False) "
+      ],
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "True\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RamDA_uNE80W",
+        "outputId": "2f3fe6b3-eb3e-439f-ad48-3825f7ac677e"
+      },
+      "source": [
+        "#Python program examples\n",
+        "#To check wheather number is +ve, -ve or 0\n",
+        "num =float(input(\"Enter a number: \"))\n",
+        "if(num > 0):\n",
+        "  print(\"Positive Number\")\n",
+        "elif(num == 0):\n",
+        "  print(\" Number is Zero\")\n",
+        "else:\n",
+        "  print(\"Number is Negative\")"
+      ],
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a number: 15\n",
+            "Positive Number\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_DeBErcBIYGs",
+        "outputId": "012a71b6-8beb-4d6b-be0c-f9602f5d76dc"
+      },
+      "source": [
+        "# Using Nested if\n",
+        "num =float(input(\"Enter a number: \"))\n",
+        "if num >= 0:\n",
+        "  if num ==0:\n",
+        "    print(\"Zero\")\n",
+        "  else:\n",
+        "    print(\"Number is +ve\")\n",
+        "else:\n",
+        "  print(\"Negative Number\")"
+      ],
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a number: 25\n",
+            "Number is +ve\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ie2hvvegJIHz",
+        "outputId": "2c48d391-bffa-4643-f3fc-a055892fdc6a"
+      },
+      "source": [
+        "#To check Number is odd or even\n",
+        "num = int(input(\"Enter any number :\"))\n",
+        "if(num % 2) == 0:\n",
+        "  print(\"{0} is Even\".format(num))\n",
+        "else:\n",
+        "  print(\"Odd\")"
+      ],
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter any number :4\n",
+            "4 is Even\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "e20kNbF4KDV6",
+        "outputId": "f700467a-cd22-4342-b1d3-8cad46bbac31"
+      },
+      "source": [
+        "# Program to check year is a leap year or not\n",
+        "# Leap year divisible by 4\n",
+        "#leap year century divisible by 400\n",
+        "\n",
+        "year =int(input(\"::::\"))\n",
+        "if (year % 4) == 0:\n",
+        "  if (year % 100)==0:\n",
+        "    if (year % 400) ==0:\n",
+        "      print(\"{0} is a leap year\".format(year))\n",
+        "    else:\n",
+        "      print(\"{0} is not a leap year\".format(year))\n",
+        "  else:\n",
+        "    print(\"{0} is a leap year\".format(year))\n",
+        "else:\n",
+        "  print(\"{0} is not a leap year\".format(year))"
+      ],
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "::::2021\n",
+            "2021 is not a leap year\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ITZ6XGptN8Cj"
+      },
+      "source": [
+        "#Largest of Three Number\n",
+        "num1 =10\n",
+        "num2 =14\n",
+        "num3 =15\n",
+        "if (num1 >=num2) and (num1 >= num3):\n",
+        "  print(\"{0} is greater\".format(num1))\n",
+        "elif (num2 >= num1) and (num2 >= num3):\n",
+        "  print(\"{0} is greater\".format(num2))\n",
+        "else:\n",
+        "  print(\"{0} is greater\".format(num3))"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gAqozTuHO3vr",
+        "outputId": "16313e03-cbaa-4351-ee48-af2ac364142f"
+      },
+      "source": [
+        "num1 =10\n",
+        "num2 =14.9\n",
+        "num3 =15\n",
+        "if (num1 >=num2) and (num1 >= num3):\n",
+        "  largest = num1\n",
+        "elif (num2 >= num1) and (num2 >= num3):\n",
+        "  largest = num2\n",
+        "else:\n",
+        "  largest = num3\n",
+        "print(\"Largest is\", largest)\n"
+      ],
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Largest is 15\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
